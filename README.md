@@ -4,7 +4,7 @@
 
 ## Back story
 Wireframe
-![Wireframe](Gude-Wireframe.png)
+![Wire frame](Gude-Wireframe.png)
 
 Our first project for GA SEI course was to make a game. I chose to make a memory card game because I used to love these as a kid.. 
 <em>still love them as an adult too!
