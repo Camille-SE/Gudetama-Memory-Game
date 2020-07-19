@@ -1,4 +1,6 @@
-#Gudetama Memory Card Game
+# Gudetama-Memory-Card-Game
 
-#Created by
+![Final Result](Gudetama-final.png)
+
+# Created by
 Camille Bailey
