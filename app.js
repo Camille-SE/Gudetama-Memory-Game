@@ -105,18 +105,18 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 
 // isMatch.length = 0;
 // if( isMatch.length = 0; isMatch.length <= 16; isMatch.length++) {
-//     console.log("You won!")
+//     alert("You won!")
 // }
 
 // function youWin(); {
 //     if(resetBoard() * 16) {
-//         console.log("you win")
+//         alert("you win")
 //     }
 // }
 
 // you win!!
-// function playerWon() {
-//     if (cards === disableCards) {
-//         console.log("You win!");
-//     }
-// };
+function playerWon() {
+    if (cards === disableCards()) {
+        alert("You win!");
+    }
+};
