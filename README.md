@@ -23,7 +23,7 @@ it interesting.
 Methods used for this project were dom manipulation and semantic markup for HTML and CSS. Seperate files were used for HTML, JS
 and CSS. To play this game either click the url or make sure that all files are linked for ease.
 The technology that was used to create this project was Visual Studio Code for the coding and wireframe.cc to create the wireframe.
-
+I did not include a timer or restart button for this game. The only problem I had was creating a pop-up for "you win!"
 
 
 ## User Stories/Game Logic

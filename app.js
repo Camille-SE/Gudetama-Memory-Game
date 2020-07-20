@@ -1,6 +1,7 @@
 console.log('Sanity Check!')
 
 // DOM function that pulls memory cards from html to js
+const board = document.querySelectorAll('.memory-game')
 const cards = document.querySelectorAll('.memory-card');
 const sound = document.getElementById('sound');
 
@@ -33,6 +34,8 @@ function flipCard() {
         checkForMatch();
     }
 }
+
+
 
 
 // function that checks if the cards match & Sound if they do
@@ -97,14 +100,23 @@ function resetBoard() {
 // event listener to flip card on click
 cards.forEach(card => card.addEventListener('click', flipCard));
 
-// you win!!
-function playerWon() {
-    if (!stopBoard === true) {
-        console.log("yeah");
-    }
-};
-// console.log(you won);
 
-{/* <script type="text/javascript">
-        alert("You won!");
-    </script> */}
+// Attempt at "you win"
+
+// isMatch.length = 0;
+// if( isMatch.length = 0; isMatch.length <= 16; isMatch.length++) {
+//     console.log("You won!")
+// }
+
+// function youWin(); {
+//     if(resetBoard() * 16) {
+//         console.log("you win")
+//     }
+// }
+
+// you win!!
+// function playerWon() {
+//     if (cards === disableCards) {
+//         console.log("You win!");
+//     }
+// };
